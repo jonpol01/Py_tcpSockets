@@ -8,7 +8,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
 # substitute the TCP port you want to listen on for 10000 below
-server_address = ('', 50001)
+server_address = ('', 50000)
 
 print >>sys.stderr, 'connecting to %s port %s' % server_address
 #sock.connect(server_address)
